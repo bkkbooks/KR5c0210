@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0210/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0210/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上正一朝天三八謝罪法懺
+  date: '2015-08-29 00:54:27.371714'
+  source:
+    repository: kanripo
+    path: KR5c0210
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0210_000-ZTDZ.yaml, hash: 'sha256:c13803f489dc79f576534fec79efb1aa8f766385158769459145d6938a8238b4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0210_000-ZTDZ.markers.yaml, hash: 'sha256:b579bc516f030cdd7720225dee78bce7e08b85560ecd779c1f9865a988484d18'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0210_SJB_000-180348c
+    span:
+    - body
+    - 0
+    - 3394
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f41542df109e0ae57dbfd134a06c366975a3af111c278569f98d1312f7fea592
